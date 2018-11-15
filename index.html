@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Basic HTML, Sass, Bootstrap, Ajax, JQuery Configuration</title>
+        <title>Html Skeleton</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <!-- Custom CSS -->
@@ -14,165 +14,11 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<!-- Navigation Bar -->
-			<nav class="navbar navbar-default navbar-fixed-top">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Logo</a>
-			    </div>
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
-		</header>
-		<!-- Carousel -->
-		<div class="jumbotron">
-  
-		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-		    <!-- Indicators -->
-		    <ol class="carousel-indicators">
-		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      <li data-target="#myCarousel" data-slide-to="1"></li>
-		      <li data-target="#myCarousel" data-slide-to="2"></li>
-		      <li data-target="#myCarousel" data-slide-to="3"></li>
-		      <li data-target="#myCarousel" data-slide-to="4"></li>
-		    </ol>
-		
-		    <!-- slides -->
-		    <div class="carousel-inner" role="listbox">
-		      <div class="item active example-1">
-		        
-		      </div>
-		
-		      <div class="item example-2">
-		        
-		      </div>
-		    
-		      <div class="item example-3">
-		        
-		      </div>
-		
-		      <div class="item example-4">
-		        
-		      </div>
-		      <div class="item example-5">
-		        
-		      </div>
-		    </div>
-		
-		    <!-- Left and right controls -->
-		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		      <span class="sr-only">Previous</span>
-		    </a>
-		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		      <span class="sr-only">Next</span>
-		    </a>
-		  </div>
-		</div>
-		<!-- Tab Section -->
-		<section class="tabs text-center">
-			<div class="container">
-				<h1>Tab Section</h1>
-				<ul class="nav nav-tabs">
-				  <li class="active"><a data-toggle="tab" href="#home">Who am I?</a></li>
-				  <li><a data-toggle="tab" href="#menu1">I'm interested in</a></li>
-				  <li><a data-toggle="tab" href="#menu2">More about me</a></li>
-				</ul>
-				
-				<div class="tab-content">
-				  <div id="home" class="tab-pane fade in active">
-				    <h3>Who am I?</h3>
-				    <p>
-				    	I'm 31 years amateur software developer. I have been learning
-				    	programming for a couple of years. My
-				    	goal is to develop myself trough
-				    	gaining the knowledge. In the near
-				    	future I would love to become professional.
-			    	</p>
-				  </div>
-				  <div id="menu1" class="tab-pane fade">
-				    <h3>I'm interested in</h3>
-				    <p>
-				    	<ul>
-					        <li>software development</li>
-					        <li>data science</li>
-					        <li>robotics</li>
-					        <li>smart devices</li>
-					        <li>mixed martial arts</li>
-					    </ul>
-				    </p>
-				  </div>
-				  <div id="menu2" class="tab-pane fade">
-				    <h3>More about me</h3>
-				    <p>I used to train Braizlian Jiu Jitsu,
-				    	Thay Box and Wrestling for 5 years.
-				    	Unfortunettly I had to stopped since
-				    	I went to university coz as an adult
-				    	person in foreign country I did not
-				    	found enough time for other activities
-				    	except full time work and full time
-				    	course at Uni.
-				    </p>
-				    <p>My programming journey started couple
-				    	years ago and now i know it will
-				    	never finish. Since begining of this
-				    	year I focused on web development and
-				    	software where for a Graphical User
-				    	Interface resposible web browsers.
-				    	I already know basics of HTML, CSS,
-				    	Bootstrap, JavaScript, Java, Maven,
-				    	Spring Boot, Hibernate, JPA,  MySQL,
-				    	Thymeleaf. My goal is to gain the
-				    	knwoledge, get a work in industry,
-				    	practice, learn and one day become a
-				    	Full Stack Developer. I hope dreams
-				    	come true. Otherwise, I will spend
-				    	rest of my life on programming only
-				    	for hobby.
-				    </p>
-				  </div>
-				</div>
-			</div>
-		</section>
-		<!-- Modal Section -->
-		<section class="m">
-			<div class="container mod">
-				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal">
-				  About
-				</button>
-				
-				<div id="exampleModal" class="modal fade" role="dialog">
-					<div class="modal-dialog">
-				    	<div class="modal-content">
-						<!-- tutaj umieszczamy zawartość-->
-				    		<div class="modal-header">
-				        		<h4>Welcome</h4>
-				    		</div>
-							<div class="modal-body">
-				       			<p>This website was built for task purposes of kodilla web development bootcamp. The main goal was to show up knowledge about bootstrap Java Script libraries. 
-				       			</p>
-				    		</div>
-				    		<div class="modal-footer">
-				       			<p>Take care !</p>
-				        		<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-				    		</div>
-						</div>
-					</div>
-				</div>
-			</div>
+
+		<header>
+		<!-- Section -->
+		<section>
+			
 		</section>
 		<!-- Footer -->
 		<footer>

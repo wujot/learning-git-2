@@ -111,5 +111,34 @@ body {
 
   .col-12 {
     width: 100%; } }
+.lyrics {
+  padding: 40px 0; }
+
+.lyricCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.card {
+  margin: 40px 0;
+  padding: 40px;
+  border: 5px solid black;
+  border-radius: 20px;
+  max-width: 250px; }
+  .card:hover {
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    transition: 0.35s ease;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transform: scale(1.2); }
+
+footer {
+  padding: 40px;
+  background-color: grey; }
 
 /*# sourceMappingURL=style.css.map */

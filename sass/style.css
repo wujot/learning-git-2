@@ -1,141 +1,74 @@
-/* Font variables */
-/* Color variables */
-/* Transition variables */
-/* Style classes */
-.rowStyle, .row:before, .row:after {
-  content: "";
-  display: table;
-  clear: both; }
+/*
+Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
+        on line 97 of style.scss
 
-.layers {
-  margin: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  text-align: center;
-  line-height: 240px;
-  background-color: #00C7E8; }
+92:     .col-12 {width: 100%;}
+93: }
+94: 
+95: .lyrics {
+96: 	padding: 40px 0;
+97: <<<<<<< HEAD
+98: 	.lyricCards {
+99: 		display: flex;
+100: 		justify-content: space-around;
+101: 		flex-wrap: wrap;
+102: 		background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 
-* {
-  box-sizing: border-box; }
-
-body {
-  width: 100%;
-  margin: 0;
-  font-family: "Open Sans", sans-serif; }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto; }
-
-[class*="col-"] {
-  width: 100%;
-  padding: 12px;
-  float: left; }
-
-@media (max-width: 767px) {
-  /* For tablets: */
-  .col-s-1 {
-    width: 8.33%; }
-
-  .col-s-2 {
-    width: 16.66%; }
-
-  .col-s-3 {
-    width: 25%; }
-
-  .col-s-4 {
-    width: 33.33%; }
-
-  .col-s-5 {
-    width: 41.66%; }
-
-  .col-s-6 {
-    width: 50%; }
-
-  .col-s-7 {
-    width: 58.33%; }
-
-  .col-s-8 {
-    width: 66.66%; }
-
-  .col-s-9 {
-    width: 75%; }
-
-  .col-s-10 {
-    width: 83.33%; }
-
-  .col-s-11 {
-    width: 91.66%; }
-
-  .col-s-12 {
-    width: 100%; } }
-@media (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%; }
-
-  .col-2 {
-    width: 16.66%; }
-
-  .col-3 {
-    width: 25%; }
-
-  .col-4 {
-    width: 33.33%; }
-
-  .col-5 {
-    width: 41.66%; }
-
-  .col-6 {
-    width: 50%; }
-
-  .col-7 {
-    width: 58.33%; }
-
-  .col-8 {
-    width: 66.66%; }
-
-  .col-9 {
-    width: 75%; }
-
-  .col-10 {
-    width: 83.33%; }
-
-  .col-11 {
-    width: 91.66%; }
-
-  .col-12 {
-    width: 100%; } }
-.lyrics {
-  padding: 40px 0; }
-  .lyrics .lyricCards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .lyrics .lyricCards .card {
-      margin: 40px 0;
-      padding: 40px;
-      border: 5px solid #252726;
-      border-radius: 20px;
-      max-width: 250px; }
-      .lyrics .lyricCards .card:hover {
-        font-weight: bold;
-        color: #fff;
-        background-color: #00C7E8;
-        transition: 0.35s ease;
-        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-        /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-        -moz-box-shadow: 3px 3px 5px 6px #ccc;
-        /* Firefox 3.5 - 3.6 */
-        box-shadow: 3px 3px 5px 6px #ccc;
-        transform: scale(1.2); }
-
-footer {
-  padding: 40px;
-  background-color: grey; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:97
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1238:in `expected'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1218:in `expr!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:434:in `visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:440:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 97 of style.scss\A \A 92:     .col-12 {width: 100%;}\A 93: }\A 94: \A 95: .lyrics {\A 96: 	padding: 40px 0;\A 97: <<<<<<< HEAD\A 98: 	.lyricCards {\A 99: 		display: flex;\A 100: 		justify-content: space-around;\A 101: 		flex-wrap: wrap;\A 102: 		background-image: url(\"https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\");"; }

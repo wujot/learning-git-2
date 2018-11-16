@@ -95,6 +95,8 @@ body {
 
 .lyrics {
 	padding: 40px 0;
+	background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+		background-size: cover;	
 }
 
 .lyricCards {
@@ -104,6 +106,7 @@ body {
 }
 
 .card {
+	background-color: #fff;
 	margin: 40px 0;
 	padding: 40px;
 	border: 5px solid black;

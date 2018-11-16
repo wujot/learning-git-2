@@ -111,6 +111,15 @@ body {
 
   .col-12 {
     width: 100%; } }
+.jumbotron {
+  background-color: #f7af9d; }
+  .jumbotron .slogan {
+    color: #ffcad4;
+    background-color: #c08497;
+    width: 50%;
+    height: 100%;
+    padding: 20px 20px; }
+
 .lyrics {
   padding: 40px 0; }
 

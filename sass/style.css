@@ -151,6 +151,9 @@ body {
   height: 400px;
   background-color: #c08497;
   color: #fff; }
+  .search form {
+    margin: 0 auto;
+    width: 50%; }
 
 footer {
   padding: 40px;

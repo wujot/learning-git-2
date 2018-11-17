@@ -109,9 +109,10 @@ body {
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+		background-color: #fff;
 		background-size: cover;
 		.card {
+			background-color: #fff;
 			margin: 40px 0;
 			padding: 40px;
 			border: 5px solid $darkerGrey;

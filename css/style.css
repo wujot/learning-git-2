@@ -1,0 +1,196 @@
+/* Font variables */
+/* Color variables */
+/* Transition variables */
+/* Style classes */
+.rowStyle, .row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.layers {
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 240px;
+  background-color: #00C7E8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+[class*="col-"] {
+  width: 100%;
+  padding: 12px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.jumbotron {
+  background-color: #f7af9d;
+}
+
+.jumbotron .slogan {
+  color: #ffcad4;
+  background-color: #c08497;
+  width: 50%;
+  height: 100%;
+  padding: 20px 20px;
+}
+
+.lyrics {
+  padding: 40px 0;
+}
+
+.lyrics .lyricCards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.lyrics .lyricCards .card {
+  background-color: #fff;
+  margin: 40px 0;
+  padding: 40px;
+  border: 5px solid #252726;
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.lyrics .lyricCards .card:hover {
+  font-weight: bold;
+  color: #fff;
+  background-color: #00C7E8;
+  transition: 0.35s ease;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc;
+  transform: scale(1.2);
+}
+
+.search {
+  padding: 40px 0;
+  width: 100%;
+  height: 400px;
+  background-color: #c08497;
+  color: #fff;
+}
+
+.search form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+footer {
+  padding: 40px;
+  background-color: grey;
+}
+
+.test {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/*# sourceMappingURL=style.css.map */

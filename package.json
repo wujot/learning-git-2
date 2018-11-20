@@ -20,7 +20,7 @@
     "watch:sassprefixer": "onchange sass/* -- npm-run-all  watch:sass watch:autoprefixer",
     "watch:autoprefixer": "autoprefixer-cli -o css/style.css css/style.css",
 
-    "watch:browsersync": "node_modules/.bin/browser-sync start --server --files \"css/*.css\" \"*.html\" "
+    "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\" "
   },
   "keywords": [],
   "author": "",
